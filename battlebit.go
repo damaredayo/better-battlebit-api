@@ -80,13 +80,13 @@ func StringToCategory(s string) Category {
 		return CategoryHeals
 	case "revives":
 		return CategoryRevives
-	case "vehicles_destroyed":
+	case "vehiclesDestroyed":
 		return CategoryVehiclesDestroyed
-	case "vehicle_repairs":
+	case "vehicleRepairs":
 		return CategoryVehicleRepairs
 	case "roadkills":
 		return CategoryRoadkills
-	case "longest_kill":
+	case "longestKill":
 		return CategoryLongestKill
 	case "objectives":
 		return CategoryObjectives
